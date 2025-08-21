@@ -1,63 +1,19 @@
 # Data-privacy
 
 
-+=============================================================+
-|        PUBLIC KEY INFRASTRUCTURE (PKI) - CENTRALIZED        |
-+=============================================================+
-|                  Certificate Authority (CA)                |
-|          (e.g., DigiCert, Let's Encrypt, etc.)             |
-|                          |                                 |
-|               Issues x.509 Certificate                     |
-|                          |                                 |
-|               +--------------------------+                |
-|               |   x.509 Certificate       |                |
-|               | - Domain: example.com     |                |
-|               | - Public Key              |                |
-|               | - Signed by CA            |                |
-|               +--------------------------+                |
-|                          |                                 |
-|              Browser verifies the certificate              |
-|                -> Enables HTTPS / TLS                      |
-|                -> Trust based on CA                        |
-+=============================================================+
+### +=============================================================+
+    |        PUBLIC KEY INFRASTRUCTURE (PKI) - CENTRALIZED        |
+    +=============================================================+
 
-                       TRUST = CENTRAL AUTHORITY
-                       USERS = PASSIVE RECIPIENTS
+    <img width="2215" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-08-21-173959" src="https://github.com/user-attachments/assets/c8c9beaa-b2e5-4fa5-a0ff-064b404e32b9" />
 
 
-+=============================================================+
-|  DECENTRALIZED IDENTITY (DID + VERIFIABLE CREDENTIALS)     |
-+=============================================================+
-|                         ISSUER                             |
-|          (e.g., University, Government, Company)           |
-|                          |                                 |
-|              Issues Verifiable Credential (VC)             |
-|                          |                                 |
-|               +--------------------------+                |
-|               |  Verifiable Credential    |                |
-|               | - Claim: MSc in CS        |                |
-|               | - Signed by Issuer        |                |
-|               +--------------------------+                |
-|                          ↑                                 |
-|                          |                                 |
-|                    +------------+                         |
-|                    |  HOLDER    |                         |
-|                    | (e.g., Alice)                        |
-|                    | - Controls DID                      |
-|                    | - Stores VCs                        |
-|                    +------------+                         |
-|                          |                                 |
-|                  Shares credential when needed            |
-|                          ↓                                 |
-|                       +----------+                        |
-|                       | VERIFIER |                        |
-|                       | (e.g., Employer)                  |
-|                       +----------+                        |
-|     Verifies credential cryptographically without CA       |
-+=============================================================+
 
-                   TRUST = CRYPTOGRAPHIC PROOFS
-                   USERS = SELF-SOVEREIGN CONTROLLERS
+
+### +=============================================================+
+     |  DECENTRALIZED IDENTITY (DID + VERIFIABLE CREDENTIALS)     |
+    +=============================================================+
+
 
 
 | Feature               | PKI / x.509       | DID + Verifiable Credentials       |

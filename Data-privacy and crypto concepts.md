@@ -5,7 +5,8 @@
     |        PUBLIC KEY INFRASTRUCTURE (PKI) - CENTRALIZED        |
     +=============================================================+
 
-    <img width="2215" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-08-21-173959" src="https://github.com/user-attachments/assets/c8c9beaa-b2e5-4fa5-a0ff-064b404e32b9" />
+    
+<img width="2215" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-08-21-173959" src="https://github.com/user-attachments/assets/c8c9beaa-b2e5-4fa5-a0ff-064b404e32b9" />
 
 
 

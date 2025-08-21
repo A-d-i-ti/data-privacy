@@ -1,6 +1,61 @@
 # Data-privacy
 
-<img width="250" height="245" alt="image" src="https://github.com/user-attachments/assets/bd1ae1d9-6d66-406d-9d0a-fc356a8c9834" />
++----------------------+
+|    Cryptography      |
++----------------------+
+           |
+   +-------+-------+
+   |               |
++------------------------+         +----------------------------+
+| Symmetric Cryptography |         | Asymmetric Cryptography   |
++------------------------+         +----------------------------+
+   | Shared Secret Key              | Key Pair (Public/Private)
+   |                                |
++--------------------------+       +-----------------------------+
+| AES, TLS, etc.           |       | RSA, ECC, ECDSA             |
+| - Confidentiality        |       | - Signatures                |
+| - Fast, Efficient        |       | - Key Exchange              |
++--------------------------+       +-----------------------------+
+   |                                |
++--------------------------+       +-----------------------------+
+| Confidentiality          |       | Digital Signatures          |
+| - AES in TLS             |       | - ECDSA (e.g., Bitcoin)     |
+| - End-to-End Messaging   |       | - RSA                       |
++--------------------------+       +-----------------------------+
+                                        |
+                       +----------------+----------------+
+                       |                                 |
+          +----------------------------+    +-----------------------------+
+          | PKI / x.509 Certificates   |    | Threshold Signatures        |
+          | - HTTPS, SSL/TLS           |    | - Multisig, Custody wallets |
+          | - Certificate Authorities  |    +-----------------------------+
+          +----------------------------+
+                       |
+       +------------------------------------------+
+       | Verifiable Credentials & DIDs            |
+       +------------------------------------------+
+                       |
+    +----------------------------------------------+
+    | Self-Sovereign Identity (SSI), Identity Mixer|
+    +----------------------------------------------+
+                       |
+        +-----------------------------+
+        |  Privacy Enhancing Techs   |
+        +-----------------------------+
+                       |
+        +-----------------------------+
+        |       Anonymity            |
+        +-----------------------------+
+        | - Ring Signatures (Monero) |
+        | - zk-SNARKs (Zcash)        |
+        | - Blind Signatures         |
+        | - Mixers / Tumblers        |
+        | - CoinJoin / CoinShuffle   |
+        | - Stealth Addresses        |
+        | - Dandelion Protocol       |
+        | - Pseudonymity             |
+        +-----------------------------+
+
 
 
 <img width="3840" height="344" alt="Untitled diagram _ Mermaid Chart-2025-08-21-152552" src="https://github.com/user-attachments/assets/d5e7cb21-3b32-473f-8474-5fb23adc8797" />

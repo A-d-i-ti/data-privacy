@@ -1,5 +1,7 @@
 # Data-privacy
 
+<img width="634" height="463" alt="image" src="https://github.com/user-attachments/assets/ac213cb8-c2f7-450d-bb16-0928de4adf40" />
+
 
 ### +=============================================================+
     |        **PUBLIC KEY INFRASTRUCTURE (PKI) - CENTRALIZED**      |

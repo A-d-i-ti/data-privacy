@@ -1,6 +1,64 @@
 # Data-privacy
 
 
++=============================================================+
+|        PUBLIC KEY INFRASTRUCTURE (PKI) - CENTRALIZED        |
++=============================================================+
+|                  Certificate Authority (CA)                |
+|          (e.g., DigiCert, Let's Encrypt, etc.)             |
+|                          |                                 |
+|               Issues x.509 Certificate                     |
+|                          |                                 |
+|               +--------------------------+                |
+|               |   x.509 Certificate       |                |
+|               | - Domain: example.com     |                |
+|               | - Public Key              |                |
+|               | - Signed by CA            |                |
+|               +--------------------------+                |
+|                          |                                 |
+|              Browser verifies the certificate              |
+|                -> Enables HTTPS / TLS                      |
+|                -> Trust based on CA                        |
++=============================================================+
+
+                       TRUST = CENTRAL AUTHORITY
+                       USERS = PASSIVE RECIPIENTS
+
+
++=============================================================+
+|  DECENTRALIZED IDENTITY (DID + VERIFIABLE CREDENTIALS)     |
++=============================================================+
+|                         ISSUER                             |
+|          (e.g., University, Government, Company)           |
+|                          |                                 |
+|              Issues Verifiable Credential (VC)             |
+|                          |                                 |
+|               +--------------------------+                |
+|               |  Verifiable Credential    |                |
+|               | - Claim: MSc in CS        |                |
+|               | - Signed by Issuer        |                |
+|               +--------------------------+                |
+|                          ↑                                 |
+|                          |                                 |
+|                    +------------+                         |
+|                    |  HOLDER    |                         |
+|                    | (e.g., Alice)                        |
+|                    | - Controls DID                      |
+|                    | - Stores VCs                        |
+|                    +------------+                         |
+|                          |                                 |
+|                  Shares credential when needed            |
+|                          ↓                                 |
+|                       +----------+                        |
+|                       | VERIFIER |                        |
+|                       | (e.g., Employer)                  |
+|                       +----------+                        |
+|     Verifies credential cryptographically without CA       |
++=============================================================+
+
+                   TRUST = CRYPTOGRAPHIC PROOFS
+                   USERS = SELF-SOVEREIGN CONTROLLERS
+
 
 | Feature               | PKI / x.509       | DID + Verifiable Credentials       |
 | --------------------- | ----------------- | ---------------------------------- |
@@ -11,6 +69,13 @@
 | **Privacy Features**  | Minimal           | Supports Selective Disclosure      |
 | **Use Cases**         | HTTPS, Email, VPN | Identity, KYC, Credentials, Access |
 
+### Real world example :
+
+| PKI (x.509)                          | DID + Verifiable Credentials                              |
+| ------------------------------------ | --------------------------------------------------------- |
+| Driver’s license issued by DMV       | Digital ID card issued by your university                 |
+| Passport issued by government        | Digital diploma in your mobile wallet                     |
+| Trusted because of issuing authority | Trusted because of cryptographic proof (ZKPs, signatures) |
 
 <img width="3840" height="2476" alt="Untitled diagram _ Mermaid Chart-2025-08-21-172630" src="https://github.com/user-attachments/assets/6121135b-40e5-4113-ac67-5b7d58440c72" />
 

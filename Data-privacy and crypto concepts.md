@@ -38,6 +38,12 @@
 <img width="3840" height="2476" alt="Untitled diagram _ Mermaid Chart-2025-08-21-172630" src="https://github.com/user-attachments/assets/6121135b-40e5-4113-ac67-5b7d58440c72" />
 
 
+| Category             | Core Algorithms / Technologies          | Related Topics                                          |
+| -------------------- | --------------------------------------- | ------------------------------------------------------- |
+| **Symmetric**        | AES, TLS, CT, RingCT, HE                | Forward Secrecy, Confidentiality, PETs                  |
+| **Asymmetric / PKI** | RSA, ECDSA, x.509, VCs, DIDs            | Signatures, SSI, zk-SNARKs, zkCP, PGP, Group Signatures |
+| **Hybrid / Layered** | TLS (asymmetric + symmetric), PAKE, MPC | zk-Rollups, Secure Messaging                            |
+
 
 🔐 Cryptography
 

@@ -1,5 +1,12 @@
 # Data-privacy
 
+#### 1. Credentials
+* **What it is:** Proof of identity, which can be knowledge-based (passwords), possession-based (tokens), or inherence-based (biometrics).
+* **Advanced Concepts:**
+    * **Verifiable Credentials (VCs):** Standardized, tamper-proof digital credentials in the W3C DID framework.
+    * **Self-Sovereign Identity (SSI):** A model where individuals control their own digital identity and data.
+
+
 <img width="634" height="463" alt="image" src="https://github.com/user-attachments/assets/ac213cb8-c2f7-450d-bb16-0928de4adf40" />
 
 

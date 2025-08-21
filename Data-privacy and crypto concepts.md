@@ -2,7 +2,7 @@
 
 
 ### +=============================================================+
-    |        PUBLIC KEY INFRASTRUCTURE (PKI) - CENTRALIZED        |
+    |        **PUBLIC KEY INFRASTRUCTURE (PKI) - CENTRALIZED**      |
     +=============================================================+
 
     
@@ -12,8 +12,9 @@
 
 
 ### +=============================================================+
-     |  DECENTRALIZED IDENTITY (DID + VERIFIABLE CREDENTIALS)     |
+     |  **DECENTRALIZED IDENTITY (DID + VERIFIABLE CREDENTIALS)**    |
     +=============================================================+
+<img width="3001" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-08-21-174951" src="https://github.com/user-attachments/assets/83f91598-68b2-45e5-b716-1d4bf03f1988" />
 
 
 

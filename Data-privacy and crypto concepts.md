@@ -198,3 +198,8 @@ Using consistent but fake identifiers (like Bitcoin addresses) that don’t reve
 
 <img width="3840" height="320" alt="Untitled diagram _ Mermaid Chart-2025-08-21-152948" src="https://github.com/user-attachments/assets/f79537b8-8961-40f6-85ec-36ec42c0f12d" />
 
+| Concept             | Belongs Under                                        | Justification                                                         |
+| ------------------- | ---------------------------------------------------- | --------------------------------------------------------------------- |
+| **Confidentiality** | Symmetric Cryptography (AES, TLS)                    | Used to encrypt and hide message content                              |
+| **Anonymity**       | Privacy-Preserving Protocols under Asymmetric / PETs | Achieved via advanced crypto like ZKPs, Ring Signatures, Mixers, etc. |
+

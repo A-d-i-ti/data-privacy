@@ -1,3 +1,4 @@
 # data-privacy
 
-<img width="868" height="801" alt="image" src="https://github.com/user-attachments/assets/7eade46f-730c-40e8-af34-e6c431d3342e" />
+<img width="250" height="245" alt="image" src="https://github.com/user-attachments/assets/bd1ae1d9-6d66-406d-9d0a-fc356a8c9834" />
+

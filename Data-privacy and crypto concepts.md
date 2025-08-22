@@ -1,4 +1,4 @@
-# Data-privacy
+# Data-privacy and Crypto concepts :
 
 #### 1. Credentials
 * **What it is:** Proof of identity, which can be knowledge-based (passwords), possession-based (tokens), or inherence-based (biometrics).
